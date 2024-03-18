@@ -1,0 +1,28 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.allpages {
+    display: flex;
+    justify-content: center;
+   align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+   color: #fff;
+   /* width: 90vw; */
+   height: 38vw;
+   border: 1px solid red;
+    
+}
+
+
+.hovering  {
+   
+    /* background-color: rgb(0, 255, 13); */
+}
+.hovering:hover {
+    background-color: blue;
+    color: #fff;
+    text-decoration: none;
+}
