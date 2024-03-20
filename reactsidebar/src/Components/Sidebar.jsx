@@ -1,12 +1,13 @@
 import React from 'react'
 import { Sidebardata } from '../data/Sidebardata'
 import { NavLink } from 'react-router-dom'
+import styled from 'styled-components'
 
 function Sidebar() {
     
   return (
     
-    <div>
+    <Div>
         <section>
             <div style={{color:'white'}}>
                 {
@@ -25,11 +26,16 @@ function Sidebar() {
                 }
             </div>
         </section>
-    </div>
+    </Div>
   )
 }
 
 export default Sidebar
 
-
+const Div = styled.div`
+a.active {
+    background: blue;
+    color: #bbb;
+}
+`
 
